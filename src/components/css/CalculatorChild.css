@@ -1,26 +1,26 @@
 :root {
-    --allColor: #e8e4e4;
-    --spicalColor: #f8943c;
+  --allColor: #e8e4e4;
+  --spicalColor: #f8943c;
 }
 
 .but-contianers {
-    display: grid;
-    grid-template-columns: auto auto auto auto;
-    gap: 1px;    
-    border-top: 1px solid #c2c0c0;
-    border-bottom: 1px solid #a19d9d;
-    background-color: #c2c0c0;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 1px;
+  border-top: 1px solid #c2c0c0;
+  border-bottom: 1px solid #a19d9d;
+  background-color: #c2c0c0;
 }
 
 .btn {
-    background-color: var(--allColor);
-    border:none;
-    height: 50px;
+  background-color: var(--allColor);
+  border: none;
+  height: 50px;
 }
 
 button[id="0"] {
-    grid-column: 1 / span 2;
-    grid-row: 5;
+  grid-column: 1 / span 2;
+  grid-row: 5;
 }
 
 button[id="÷"],
@@ -28,5 +28,5 @@ button[id="×"],
 button[id="-"],
 button[id="+"],
 button[id="="] {
-    background-color:var(--spicalColor);
+  background-color: var(--spicalColor);
 }
