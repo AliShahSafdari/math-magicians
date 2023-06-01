@@ -25,7 +25,7 @@
 
 # 📖  math-magicians: React  <a name="math-magicians"></a>
 
-**math-magicians** is a setup of React and design of calculator.
+**math-magicians** is a setup of React, design of calculator, and add the logic of the calcolator.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -55,7 +55,8 @@
 
 ### Key Features <a name="key-features"></a>
 
--  This project just make desing the UI of caltulator
+-  This project make desing the UI of caltulator
+- This project make the logic of the caltulator
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 - [Live Demo Link](Coming soon)
