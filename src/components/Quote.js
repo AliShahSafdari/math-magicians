@@ -22,7 +22,7 @@ const Quote = () => {
       setIsLoading(false);
     };
     fetchDate();
-  }, [setData, isLoading]);
+  }, []);
   return (
     <div className="qoute-contianer">
       {isLoading && <div>Loading...</div>}
