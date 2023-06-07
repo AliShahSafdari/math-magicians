@@ -1,0 +1,16 @@
+.wrapper {
+  background-color: rgb(64, 140, 127);
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.title {
+  margin-top: 3%;
+  margin-left: 2%;
+}
+
+.text {
+  margin: 0 3%;
+}

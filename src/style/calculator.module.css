@@ -1,0 +1,13 @@
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border: 1px solid red;
+  border-top: 0;
+  padding: 10px;
+}
+
+.title {
+  margin-top: 3%;
+  margin-left: 2%;
+}
