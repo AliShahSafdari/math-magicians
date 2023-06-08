@@ -25,29 +25,29 @@ describe(('Testing the calculator functions'), () => {
   test('test subtract operation', () => {
     render(<CalculatorPage />);
     const one = screen.getByText('5');
-    const sum = screen.getByText('-');
+    const sub = screen.getByText('-');
     const two = screen.getByText('7');
     const equals = screen.getByText('=');
     const result = screen.getByTestId('result');
     fireEvent.click(one);
-    fireEvent.click(sum);
+    fireEvent.click(sub);
     fireEvent.click(two);
     fireEvent.click(equals);
     expect(result.textContent).toBe('-2');
   });
-  
+
   it('test multiply operation', () => {
     render(<CalculatorPage />);
     const one = screen.getByText('5');
-    const sum = screen.getByText('+');
-    const two = screen.getByText('7');
+    const divide = screen.getByText('÷');
+    const two = screen.getByText('5');
     const equals = screen.getByText('=');
     const result = screen.getByTestId('result');
     fireEvent.click(one);
-    fireEvent.click(sum);
+    fireEvent.click(divide);
     fireEvent.click(two);
     fireEvent.click(equals);
-    expect(result.textContent).toBe('12');
+    expect(result.textContent).toBe('1');
   });
 
   test('User pressed 20 and ÷ button ( 10 ÷) but then he press x button the result will be x10', () => {

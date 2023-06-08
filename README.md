@@ -25,7 +25,7 @@
 
 # 📖  math-magicians: React  <a name="math-magicians"></a>
 
-**math-magicians** is a setup of React, design of calculator, add the logic of the calcolator, fetch Data from API, add the route that user can move from one page to the next.
+**math-magicians** is a setup of React, design of calculator, add the logic of the calcolator, fetch Data from API, the route that user can move from one page to the next, and add the react-testing.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -111,7 +111,9 @@ Open index.html using live server extension.
 - Twitter: [@AlishahSafdari](https://twitter.com/AlishahSafdari)
 - LinkedIn: [@ali-shah-safdari-010541215](https://www.linkedin.com/in/ali-shah-safdari-010541215/)
 
- 
+👤 Hiwot Bayissa
+
+- GitHub: [@hiwina](https://github.com/hiwina) 
 
 ## 🔭 Future Features <a name="future-features"></a>
 
