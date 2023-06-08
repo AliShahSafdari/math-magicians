@@ -14,11 +14,9 @@ describe('Test the all commponents', () => {
     const { container } = render(<CalculatorPage />);
     expect(container).toMatchSnapshot();
   });
-  
+
   it('The QuotePage is rendered accurately!', () => {
     const { container } = render(<Quote />);
     expect(container).toMatchSnapshot();
   });
-
-  
 });
