@@ -61,7 +61,7 @@
 -  This Project use React route 
 
 ## 🚀 Live Demo <a name="live-demo"></a>
-- [Live Demo Link](Coming soon)
+- [Live Demo Link](https://math-magicians-cfoy.onrender.com/)
 
 
 ## 💻 Getting Started <a name="getting-started"></a>
