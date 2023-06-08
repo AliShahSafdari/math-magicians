@@ -35,6 +35,20 @@ describe(('Testing the calculator functions'), () => {
     fireEvent.click(equals);
     expect(result.textContent).toBe('-2');
   });
+  
+  it('test multiply operation', () => {
+    render(<CalculatorPage />);
+    const one = screen.getByText('5');
+    const sum = screen.getByText('+');
+    const two = screen.getByText('7');
+    const equals = screen.getByText('=');
+    const result = screen.getByTestId('result');
+    fireEvent.click(one);
+    fireEvent.click(sum);
+    fireEvent.click(two);
+    fireEvent.click(equals);
+    expect(result.textContent).toBe('12');
+  });
 
   test('User pressed 20 and ÷ button ( 10 ÷) but then he press x button the result will be x10', () => {
     const operationTest = { total: '20', next: null, operation: '÷' };
