@@ -59,4 +59,8 @@ describe(('Testing the calculator functions'), () => {
     const operationTest = { total: null, next: '5', operation: null };
     expect(calculate(operationTest, '+/-')).toEqual({ total: null, next: '-5', operation: null });
   });
+  test('User pressed 10 and ÷ button ( 10 ÷) but then he press x button the result will be x10', () => {
+    const operationTest = { total: '10', next: null, operation: '÷' };
+    expect(calculate(operationTest, 'x')).toEqual({ total: '10', next: null, operation: 'x' });
+  });
 });
