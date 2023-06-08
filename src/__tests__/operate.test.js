@@ -13,4 +13,7 @@ describe('Check for the 4 main operation +, -, / and x', () => {
   test('100 ÷ 2 should be 50', () => {
     expect(operate(100, 2, '÷')).toEqual('50');
   });
+  test('10 ÷ 0 should be 0', () => {
+    expect(operate(10, 0, '÷')).toEqual("Can't divide by 0.");
+  });
 });
