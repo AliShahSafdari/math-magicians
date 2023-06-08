@@ -13,7 +13,7 @@ const Child = () => {
   const totalBtn = [];
   calculatorBtn.forEach((but) => (
     totalBtn.push(
-      <button type="button" className="btn" onClick={handleEvents} key={but} id={but}>{but}</button>,
+      <button type="button" className="btn" onClick={handleEvents} key={but} data-testid={but} id={but}>{but}</button>,
     )));
   const { next, total, operation } = state;
   const res = (total || '') + (operation || '') + (next || '') || '0';
