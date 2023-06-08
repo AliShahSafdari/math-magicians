@@ -4,9 +4,9 @@ import './style.css';
 const CustomLink = (prop) => {
   const { to, children } = prop;
   const resolvedPath = useResolvedPath(to);
-  const isActive = useMatch({ path: to, end: true });
+  const isActive = useMatch({ path: resolvedPath.pathname, end: true });
   return (
-    <li className={''}>
+    <li className={isActive ? 'active' : ''}>
       <Link to={to}>{children}</Link>
     </li>
   );
