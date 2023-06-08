@@ -1,0 +1,230 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test the all commponents The CalculatorPage is rendered accurately! 1`] = `
+<div>
+  <div
+    class="wrapper"
+  >
+    <h2
+      class="title"
+    >
+      Let\`s do some math!
+    </h2>
+    <div>
+      <div
+        class="cal-contianer"
+      >
+        <div
+          class="diplay"
+          data-testid="result"
+        >
+          0
+        </div>
+        <div
+          class="but-contianers"
+        >
+          <button
+            class="btn"
+            data-testid="AC"
+            id="AC"
+            type="button"
+          >
+            AC
+          </button>
+          <button
+            class="btn"
+            data-testid="+/-"
+            id="+/-"
+            type="button"
+          >
+            +/-
+          </button>
+          <button
+            class="btn"
+            data-testid="%"
+            id="%"
+            type="button"
+          >
+            %
+          </button>
+          <button
+            class="btn"
+            data-testid="÷"
+            id="÷"
+            type="button"
+          >
+            ÷
+          </button>
+          <button
+            class="btn"
+            data-testid="7"
+            id="7"
+            type="button"
+          >
+            7
+          </button>
+          <button
+            class="btn"
+            data-testid="8"
+            id="8"
+            type="button"
+          >
+            8
+          </button>
+          <button
+            class="btn"
+            data-testid="9"
+            id="9"
+            type="button"
+          >
+            9
+          </button>
+          <button
+            class="btn"
+            data-testid="x"
+            id="x"
+            type="button"
+          >
+            x
+          </button>
+          <button
+            class="btn"
+            data-testid="4"
+            id="4"
+            type="button"
+          >
+            4
+          </button>
+          <button
+            class="btn"
+            data-testid="5"
+            id="5"
+            type="button"
+          >
+            5
+          </button>
+          <button
+            class="btn"
+            data-testid="6"
+            id="6"
+            type="button"
+          >
+            6
+          </button>
+          <button
+            class="btn"
+            data-testid="-"
+            id="-"
+            type="button"
+          >
+            -
+          </button>
+          <button
+            class="btn"
+            data-testid="1"
+            id="1"
+            type="button"
+          >
+            1
+          </button>
+          <button
+            class="btn"
+            data-testid="2"
+            id="2"
+            type="button"
+          >
+            2
+          </button>
+          <button
+            class="btn"
+            data-testid="3"
+            id="3"
+            type="button"
+          >
+            3
+          </button>
+          <button
+            class="btn"
+            data-testid="+"
+            id="+"
+            type="button"
+          >
+            +
+          </button>
+          <button
+            class="btn"
+            data-testid="0"
+            id="0"
+            type="button"
+          >
+            0
+          </button>
+          <button
+            class="btn"
+            data-testid="."
+            id="."
+            type="button"
+          >
+            .
+          </button>
+          <button
+            class="btn"
+            data-testid="="
+            id="="
+            type="button"
+          >
+            =
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Test the all commponents The HomePage is rendered accurately!  1`] = `
+<div>
+  <div
+    class="wrapper"
+  >
+    <h2
+      class="title"
+    >
+      Welcome to our Page
+    </h2>
+    <div
+      class="text"
+    >
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      </p>
+       
+    </div>
+    <div
+      class="text"
+    >
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      </p>
+       
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Test the all commponents The QuotePage is rendered accurately! 1`] = `
+<div>
+  <div
+    class="qoute-contianer"
+  >
+    <div>
+      Loading...
+    </div>
+    <div>
+      <h2 />
+      <h4 />
+      <p />
+    </div>
+  </div>
+</div>
+`;
